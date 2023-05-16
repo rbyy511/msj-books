@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+    nav li:last-child {
+        margin-right: 0;
+    }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #666;
+        color: #fff;
+    }
+
+footer {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+    .logo img {
+        width: 10%;
+        height: auto;
+    }
+    /* Styling untuk layar dengan lebar di bawah 600px */
+@media screen and (max-width: 600px) {
+  /* Mengatur ukuran font dan jarak margin pada header */
+  header {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  /* Mengatur ukuran font dan jarak margin pada navigasi */
+  nav {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* Mengatur ukuran font pada judul buku */
+  h1 {
+    font-size: 20px;
+  }
+
+  /* Mengatur ukuran font dan jarak margin pada deskripsi buku */
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* Mengatur ukuran font pada tombol beli */
+  .btn {
+    font-size: 16px;
+  }
+}
+
+/* Styling untuk layar dengan lebar di antara 600px dan 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  /* Mengatur ukuran font pada header */
+  header {
+    font-size: 20px;
+  }
+
+  /* Mengatur ukuran font pada navigasi */
+  nav {
+    font-size: 16px;
+  }
+
+  /* Mengatur ukuran font pada judul buku */
+  h1 {
+    font-size: 24px;
+  }
+
+  /* Mengatur ukuran font pada deskripsi buku */
+  p {
+    font-size: 16px;
+  }
+
+  /* Mengatur ukuran font pada tombol beli */
+  .btn {
+    font-size: 18px;
+  }
+}
+
+/* Styling untuk layar dengan lebar di atas 900px */
+@media screen and (min-width: 900px) {
+  /* Mengatur ukuran font pada header */
+  header {
+    font-size: 24px;
+  }
+
+  /* Mengatur ukuran font pada navigasi */
+  nav {
+    font-size: 18px;
+  }
+
+  /* Mengatur ukuran font pada judul buku */
+  h1 {
+    font-size: 36px;
+  }
+
+  /* Mengatur ukuran font pada deskripsi buku */
+  p {
+    font-size: 18px;
+  }
+
+  /* Mengatur ukuran font pada tombol beli */
+  .btn {
+    font-size: 20px;
+  }
+}
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+    .book img {
+        width: 100%;
+        height: auto;
+    }
+
+.book-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.book-title {
+    margin: 0;
+}
+
+.book-price {
+    margin: 0;
+    font-weight: bold;
+}
+
